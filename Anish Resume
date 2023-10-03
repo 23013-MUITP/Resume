@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive CV using Html & CSS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+        <img src="Image.jpg">
+        </div>
+        <h2>Anish Adamane<br><span>Student</span></h2>
+        </div>
+        <div class="contactInfo">
+            <h3 class="title">Contact Info</h3>
+            <ul>
+                <li>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                    </span>
+                    <span class="text">+91 123 456 7890</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <span class="text">anish.adamane@mastersunion.org</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </span>
+                    <span class="text">@Adamaneanish</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </span>
+                    <span class="text">https://www.linkedin.com/in/anish-adamane-248a7521b</span>
+                </li>
+                <li>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <span class="text">Bangalore, Karnataka, India</span>
+                </li>
+            </ul>
+            </div>
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2023-Present</h5>
+                        <h4>Undergraduate in Technology and Business Management</h4>
+                        <h4>Masters' Union</h4>
+                    </li>
+                    <li>
+                        <h5>2021-2023</h5>
+                        <h4>Commerce</h4>
+                        <h4>Reva Independent PU College</h4>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">anish.adamane@mastersunion.org</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">@Adamaneanish</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">https://www.linkedin.com/in/anish-adamane-248a7521b</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </span>
+                        <span class="text">Bangalore, Karnataka, India</span>
+                    </li>
+                </ul>
+                </div>
+                <div class="contactInfo language">
+                    <h3 class="title">Languages</h3>
+                    <ul>
+                    <li><span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
+                    </li>
+                    <li><span class="text">Hindi</span>
+                        <span class="percent">
+                            <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                    <li><span class="text">Kannada</span>
+                        <span class="percent">
+                            <div style="width: 85%;"></div>
+                        </span>
+                    </li>
+                    <li><span class="text">French</span>
+                        <span class="percent">
+                            <div style="width: 25%;"></div>
+                        </span>
+                    </li>
+                    </ul>
+                </div>
+        </div>
+
+        
+        <div class="right_Side">
+        <div class="aboubt">
+            <h2 class="title2">Profile</h2>
+            <p>I am an 18-year-old student in the Masters Union Undergraduate Program, pursuing a degree in technology and business management. I have been part of the team that built India's first food serving robot BoB, which was featured on Economic Times and NDTV. I am proficient in Python and hav a passion for chess and sudoku. I also love reading books on various topics, especially science and history. I am looking for opportunities to apply my skills and knowledge in innovative projects that can make a positive impact on society.</p>
+        </div>
+        <div class="aboubt">
+            <h2 class="title2">Experience</h2>
+            <p>For more details, see my project on a food-serving robot <a href="https://economictimes.indiatimes.com/startups/meet-bengalurus-school-going-coders-who-built-a-food-serving-robot/articleshow/58230295.cms">here</p>
+        </div>
+        <div class="aboubt skills">
+            <h2 class="title2">Professional Skills</h2>
+            <div class="box">
+                <h4>Python</h4>
+            </div>
+            <div class="box">
+                <h4>Linux</h4>
+            </div>
+        </div>
+        <div class="aboubt interests">
+            <h2 class="title2">Interests</h2>
+            <div class="box">
+                <h4>Gaming</h4>
+            </div>
+            <div class="box">
+                <h4>Reading</h4>
+            </div>
+            <div class="box">
+                <h4>Chess</h4>
+            </div>
+            <div class="box">
+                <h4>sudoku</h4>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
